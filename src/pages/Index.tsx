@@ -1,4 +1,4 @@
-import AlienLogo from "@/components/AlienLogo";
+
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Sparkles, Code, Gamepad2 } from "lucide-react";
 
@@ -12,10 +12,6 @@ const Index = () => {
       {/* Main content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 max-w-4xl mx-auto">
         
-        {/* Logo */}
-        <div className="mb-12">
-          <AlienLogo />
-        </div>
 
         {/* Hero section */}
         <div className="text-center mb-16 space-y-6">
@@ -53,14 +49,14 @@ const Index = () => {
             variant="premium" 
             size="lg" 
             className="text-lg px-12 py-6 h-auto font-semibold group"
-            onClick={() => window.open('https://dan.com/buy-domain/alienforge.io', '_blank')}
+            onClick={() => window.open('https://www.afternic.com/domain/alienforge.io', '_blank')}
           >
             <span>Buy This Domain</span>
             <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
           
           <p className="text-sm text-muted-foreground mt-4">
-            Premium domain available on Dan.com
+            Premium domain available on Afternic.com
           </p>
         </div>
 
