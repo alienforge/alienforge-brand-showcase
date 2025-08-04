@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/AlienForge.io/' : '/',
+  base: mode === 'production' ? '/alienforge-brand-showcase/' : '/',
   server: {
     host: "::",
     port: 8080,
